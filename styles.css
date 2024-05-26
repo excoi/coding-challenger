@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.buttons button {
+    background-color: #39FF14;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.scooter-list .scooter {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.scooter h2 {
+    margin: 0 0 5px;
+}
+
+.battery {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.battery.green {
+    background-color: lawngreen;
+}
+
+.battery.orange {
+    background-color: orange;
+}
+
+.battery.red {
+    background-color: red;
+}
+
+.prova{
+    color: lawngreen;
+}
